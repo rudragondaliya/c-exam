@@ -31,8 +31,6 @@ int main() {
         scanf("%d", &houses[i].established_year);
         printf("City: ");
         scanf("%s",&houses[i].city);
-//        fgets(houses[i].city, sizeof(houses[i].city), stdin);
-//        houses[i].city[strcspn(houses[i].city, "\n")] = '\0'; 
     }
 
     printf("\nHouse details:\n");
